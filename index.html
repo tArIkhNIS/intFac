@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI_page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+  </head>
+  <body>
+    <div class="header-flex">
+      <h2 style="margin-left: 40px">
+        t<span style="color: #458ff6">A</span>r<span style="color: #458ff6"
+          >I</span
+        >kh
+      </h2>
+
+      <nav>
+        <a href="https://tarikhnis.github.io/homepage/index.html" class="active-link">Басты бет</a>
+        <a href="https://tarikhnis.github.io/goals/index.html">Оқу мақсаттары</a>
+        <a href="#grades">Сыныптар</a>
+        <a href="https://tarikhnis.github.io/goals/index.html">Тақырыптар</a>
+        <a href="#about">Біз туралы</a>
+      </nav>
+    </div>
+    <section class="AI-section">
+      <div class="information">
+        <h1 class="information_text">
+          Бірнеше сөздерді еңгізіп дайын сөйлемдерді күтініз
+        </h1>
+        <textarea
+          class="inputt"
+          id="input_btn"
+          placeholder="Текстті еңгізіңіз"
+        ></textarea>
+        <button class="gptbtn" id="sendInputBtn">Жүктеуге</button>
+        <button class="gptbtn">Кез келген тақырып</button>
+      </div>
+      <div class="chat_box_container" id="chat-container">
+        <div id="chatbox"></div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
